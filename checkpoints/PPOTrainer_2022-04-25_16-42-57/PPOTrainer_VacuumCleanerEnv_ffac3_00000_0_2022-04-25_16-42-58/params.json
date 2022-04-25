@@ -1,0 +1,27 @@
+{
+  "env": "<class 'envs.vacuum_cleaner_env.VacuumCleanerEnv'>",
+  "env_config": {
+    "desc": null,
+    "is_slippery": false,
+    "map_name": "6x6"
+  },
+  "evaluation_config": {
+    "render_env": false
+  },
+  "evaluation_interval": 1,
+  "evaluation_num_workers": 4,
+  "exploration_config": {
+    "epsilon_timesteps": 10000000.0,
+    "type": "EpsilonGreedy"
+  },
+  "explore": true,
+  "framework": "torch",
+  "model": {
+    "fcnet_activation": "relu",
+    "fcnet_hiddens": [
+      64,
+      64
+    ]
+  },
+  "num_workers": 18
+}
