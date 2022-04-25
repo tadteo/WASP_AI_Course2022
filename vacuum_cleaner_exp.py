@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-from email.policy import default
-from traceback import print_tb
 import gym
-from pyparsing import replaceWith
 
 import ray
 from ray import tune
