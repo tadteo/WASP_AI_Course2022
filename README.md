@@ -27,10 +27,12 @@ To run the code you can both used a pre-trained agent or train an agent from scr
 To use the pretrain agent you can use the checkpoints saved in the checkpoints folder:
 
 ```bash
-    python3 vacuum_cleaner_exp.py --checkpoint <PATH_TO_REPO>/WASP_AI_Course2022/checkpoints/PPOTrainer_2022-04-25_16-42-57/PPOTrainer_VacuumCleanerEnv_ffac3_00000_0_2022-04-25_16-42-58/checkpoint_000180/checkpoint-180
+    python3 vacuum_cleaner_exp.py --checkpoint <PATH_TO_REPO>/WASP_AI_Course2022/checkpoints/PPOTrainer_2022-04/PPOTrainer_VacuumCleanerEnv/checkpoint_000180/checkpoint-180
 ```
 
 To run a training from scratch you can just run:
+
 ```bash
     python3 vacuum_cleaner_exp.py
 ```
+
